@@ -11,7 +11,7 @@ import traceback
 from image_processor import ImageProcessor
 
 # Load environment variables
-load_dotenv()
+
 
 # Configuration
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB per file
