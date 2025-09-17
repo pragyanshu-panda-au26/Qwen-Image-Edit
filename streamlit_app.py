@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
 from huggingface_hub import InferenceClient
 from PIL import Image
 import io

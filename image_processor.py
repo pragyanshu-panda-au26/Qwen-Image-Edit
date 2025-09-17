@@ -19,7 +19,7 @@ class ImageProcessor:
     
     def _initialize_client(self):
         """Initialize the HuggingFace client with error handling"""
-        token = os.environ.get("HF_TOKEN")
+        token = st.secrets("HF_TOKEN")
         if not token:
             st.error("❌ HF_TOKEN not found! Please create a `.env` file with your HuggingFace token.")
             st.info("""
